@@ -1,2 +1,2 @@
-Main-Class: jars.app.Main
+Main-Class: ru.itis.app.Main
 
