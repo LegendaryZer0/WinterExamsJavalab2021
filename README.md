@@ -32,8 +32,8 @@ PasswordEncoder - в **encryption** -  https://github.com/LegendaryZer0/WinterEx
 
 
 ## 8)08. Сделать Web-приложение со страницами на Freemarker (2-3) страницы
-Если нужно на спринге и контроллерах - **Semester_Work** - WEB-INF/ftl,    и WinterExamsJavalab2021/Semester_Work/src/main/java/ru/itis/config
-, WinterExamsJavalab2021/Semester_Work/src/main/java/ru/itis/controllers - код
+Если нужно на спринге и контроллерах - **Semester_Work** - WinterExamsJavalab2021/Semester_Work/src/main/java/ru/itis/config
+и WinterExamsJavalab2021/Semester_Work/src/main/java/ru/itis/controllers - код, а
 https://github.com/LegendaryZer0/WinterExamsJavalab2021/tree/exams/Semester_Work/src/main/webapp/WEB-INF/ftl -ftlh
 
 
