@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/16. WebAppExample - CSRF" />
+    <file type="web" url="file://$PROJECT_DIR$/Semester_Work" />
+    <file type="web" url="file://$PROJECT_DIR$/../java_lab_2020/16. WebAppExample - CSRF" />
+    <file type="web" url="file://$PROJECT_DIR$/../JavalabSemester_Work" />
+    <file type="web" url="file://$PROJECT_DIR$/../Semester_Work" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../java_lab_2020/16. WebAppExample - CSRF/pom.xml" />
+        <option value="$PROJECT_DIR$/../java_lab_2020/15.Annotations_SOURCE/pom.xml" />
+        <option value="$PROJECT_DIR$/../Java-lab-itis2/src/main/java/org/example/work3Reflection/pom.xml" />
+        <option value="$PROJECT_DIR$/../Semester_Work/pom.xml" />
+        <option value="$PROJECT_DIR$/../simple-char-902-v2-LegendaryZer0/pom.xml" />
+        <option value="$PROJECT_DIR$/15.Annotations_SOURCE/pom.xml" />
+        <option value="$PROJECT_DIR$/16. WebAppExample - CSRF/pom.xml" />
+        <option value="$PROJECT_DIR$/Semester_Work/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-char-902-v2-LegendaryZer0/pom.xml" />
+        <option value="$PROJECT_DIR$/work2/pom.xml" />
+        <option value="$PROJECT_DIR$/work2maven/pom.xml" />
+        <option value="$PROJECT_DIR$/work3Reflection/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" project-jdk-name="14 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

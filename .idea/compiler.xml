@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my-project (1)" />
+        <module name="ExamsJavalab2021Winter" />
+        <module name="source-annotations-example (1)" />
+        <module name="web-app-example-sessions (1)" />
+        <module name="source-annotations-example" />
+        <module name="LabWork" />
+        <module name="JavaLab" />
+        <module name="work3Reflection (1)" />
+        <module name="my-project" />
+        <module name="web-app-example-sessions" />
+        <module name="Work2App" />
+        <module name="work3Reflection" />
+        <module name="LabWork (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webapp-example" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

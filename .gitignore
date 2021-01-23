@@ -1,0 +1,7 @@
+# Project exclude paths
+/15.Annotations_SOURCE/target/
+/16. WebAppExample - CSRF/target/
+/out/
+/work2/target/
+/work2maven/target/
+/work3Reflection/target/

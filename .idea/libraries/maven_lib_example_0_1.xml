@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="maven-lib-example-0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Java-lab-itis2/src/main/java/org/example/work2mavenLib/target/maven-lib-example-0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

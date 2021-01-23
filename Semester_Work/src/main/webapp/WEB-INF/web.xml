@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+
+
+
+
+    <servlet>
+        <servlet-name>dispatcherServlet</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dispatcherServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+
+
+    <!--Позволяет работать с русскими символами-->
+    <filter>
+        <filter-name>encodingFilter</filter-name>
+        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>forceEncoding</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>encodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+
+
+
+
+
+
+
+
+
+   <!-- <servlet>
+
+
+
+        <servlet-name>freemarker</servlet-name>
+        <servlet-class>freemarker.ext.servlet.FreemarkerServlet</servlet-class>
+
+        &lt;!&ndash;
+          Init-param documentation:
+          https://freemarker.apache.org/docs/api/freemarker/ext/servlet/FreemarkerServlet.html
+        &ndash;&gt;
+
+        &lt;!&ndash; FreemarkerServlet settings: &ndash;&gt;
+        <init-param>
+            <param-name>TemplatePath</param-name>
+            <param-value>/</param-value>
+        </init-param>
+        <init-param>
+            <param-name>NoCache</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ResponseCharacterEncoding</param-name>
+            &lt;!&ndash; Use the output_encoding setting of FreeMarker: &ndash;&gt;
+            <param-value>fromTemplate</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ExceptionOnMissingTemplate</param-name>
+            &lt;!&ndash; true => HTTP 500 on missing template, instead of HTTP 404. &ndash;&gt;
+            <param-value>true</param-value>
+        </init-param>
+
+        &lt;!&ndash; FreeMarker engine settings: &ndash;&gt;
+        <init-param>
+            <param-name>incompatible_improvements</param-name>
+            <param-value>2.3.30</param-value>
+            &lt;!&ndash;
+              Recommended to set to a high value.
+              See: https://freemarker.apache.org/docs/pgui_config_incompatible_improvements.html
+            &ndash;&gt;
+        </init-param>
+        <init-param>
+            <param-name>template_exception_handler</param-name>
+            &lt;!&ndash; Use "html_debug" during development! &ndash;&gt;
+            <param-value>rethrow</param-value>
+        </init-param>
+        <init-param>
+            <param-name>template_update_delay</param-name>
+            &lt;!&ndash; Use 0 during development! Consider what value you need otherwise. &ndash;&gt;
+            <param-value>30 s</param-value>
+        </init-param>
+        <init-param>
+            <param-name>default_encoding</param-name>
+            &lt;!&ndash; The encoding of the template files: &ndash;&gt;
+            <param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>output_encoding</param-name>
+            &lt;!&ndash; The encoding of the template output; Note that you must set
+                 "ResponseCharacterEncodring" to "fromTemplate" for this to work! &ndash;&gt;
+            <param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>locale</param-name>
+            &lt;!&ndash; Influences number and date/time formatting, etc. &ndash;&gt;
+            <param-value>en_US</param-value>
+        </init-param>
+        <init-param>
+            <param-name>number_format</param-name>
+            <param-value>0.##########</param-value>
+        </init-param>
+
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>freemarker</servlet-name>
+        <url-pattern>*.ftl</url-pattern>
+        &lt;!&ndash; HTML and XML auto-escaped if incompatible_improvements >= 2.3.24: &ndash;&gt;
+        <url-pattern>*.ftlh</url-pattern>
+        <url-pattern>*.ftlx</url-pattern>
+    </servlet-mapping>
+
+
+
+    &lt;!&ndash;
+      Prevent the visiting of MVC Views from outside the servlet container.
+      RequestDispatcher.forward/include should, and will still work.
+      Removing this may open security holes!
+    &ndash;&gt;
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>FreeMarker MVC Views</web-resource-name>
+            <url-pattern>*.ftl</url-pattern>
+            <url-pattern>*.ftlh</url-pattern>
+            <url-pattern>*.ftlx</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            &lt;!&ndash; Nobody is allowed to visit these directly. &ndash;&gt;
+        </auth-constraint>
+    </security-constraint>-->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/dispatcherServlet-servlet.xml</param-value>
+    </context-param>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+</web-app>
