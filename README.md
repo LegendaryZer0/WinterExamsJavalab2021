@@ -9,7 +9,7 @@
 - **work2**
 
 ## 3)03. Реализлвать Maven-проект для многопоточной загрузки 
--**work2maven + work2mavenLib**
+- **work2maven + work2mavenLib**
 
 ## 4)04. Реализовать SimpleJdbcTemplate
 - Находится в **Semester_Work** в **repository/utill**  ссылка  -    
