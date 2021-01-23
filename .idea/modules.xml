@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Java-lab-itis2/src/main/java/org/example/work1/work1.iml" filepath="$PROJECT_DIR$/../Java-lab-itis2/src/main/java/org/example/work1/work1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/work1/work11.iml" filepath="$PROJECT_DIR$/work1/work11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Java-lab-itis2/src/main/java/org/example/work2/work2.iml" filepath="$PROJECT_DIR$/../Java-lab-itis2/src/main/java/org/example/work2/work2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Java-lab-itis2/src/main/java/org/example/work2maven/work2maven.iml" filepath="$PROJECT_DIR$/../Java-lab-itis2/src/main/java/org/example/work2maven/work2maven.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Java-lab-itis2/src/main/java/org/example/work2mavenLib/work2mavenLib.iml" filepath="$PROJECT_DIR$/../Java-lab-itis2/src/main/java/org/example/work2mavenLib/work2mavenLib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/work2mavenLib/work2mavenLib1.iml" filepath="$PROJECT_DIR$/work2mavenLib/work2mavenLib1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work1/work1.iml" filepath="$PROJECT_DIR$/work1/work1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work2mavenLib/work2mavenLib.iml" filepath="$PROJECT_DIR$/work2mavenLib/work2mavenLib.iml" />
     </modules>
   </component>
 </project>
