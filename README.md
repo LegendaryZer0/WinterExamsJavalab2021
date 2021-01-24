@@ -52,5 +52,5 @@ https://github.com/LegendaryZer0/JavaEE-itis-lab/tree/servletsAndFtlh/src/main/w
 
 ## 11)11. CSRF и постоянное хранилище сессий
 Пункт 1: в 16. **WebAppExample - CSRF**
-Пункт 2: не сделан
+Пункт 2: в другом репо -   https://github.com/LegendaryZer0/SpringExamScrf24012021
 Постоянное хранилище сессий- **выполнено**, пруфы : https://github.com/LegendaryZer0/WinterExamsJavalab2021/tree/exams/16.%20WebAppExample%20-%20CSRF/src/main/resources/proofs
