@@ -47,7 +47,8 @@ https://github.com/LegendaryZer0/JavaEE-itis-lab/tree/servletsAndFtlh/src/main/w
 находится в : **simple-char-902-v2-LegendaryZer0**
 
 ## 10)10. Сделать AnnotationProcessing
-находится в  - **15.Annotations_SOURCE** (надеюсь, я правильно понял, что нужно сделать)
+находится в  - **15.Annotations_SOURCE** (надеюсь, я правильно понял, что нужно сделать) 
+пруфы в ресурсах  -https://github.com/LegendaryZer0/WinterExamsJavalab2021/tree/exams/15.Annotations_SOURCE/src/main/resources/proofs
 
 ## 11)11. CSRF и постоянное хранилище сессий
 Пункт 1: в 16. **WebAppExample - CSRF**
