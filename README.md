@@ -9,7 +9,7 @@
 - **work2**
 
 ## 3)03. Реализлвать Maven-проект для многопоточной загрузки 
--**work2maven + work2mavenLib**
+- **work2maven + work2mavenLib**
 
 ## 4)04. Реализовать SimpleJdbcTemplate
 - Находится в **Semester_Work** в **repository/utill**  ссылка  -    
@@ -32,8 +32,8 @@ PasswordEncoder - в **encryption** -  https://github.com/LegendaryZer0/WinterEx
 
 
 ## 8)08. Сделать Web-приложение со страницами на Freemarker (2-3) страницы
-Если нужно на спринге и контроллерах - **Semester_Work** - WEB-INF/ftl,    и WinterExamsJavalab2021/Semester_Work/src/main/java/ru/itis/config
-, WinterExamsJavalab2021/Semester_Work/src/main/java/ru/itis/controllers - код
+Если нужно на спринге и контроллерах - **Semester_Work** - WinterExamsJavalab2021/Semester_Work/src/main/java/ru/itis/config
+и WinterExamsJavalab2021/Semester_Work/src/main/java/ru/itis/controllers - код, а
 https://github.com/LegendaryZer0/WinterExamsJavalab2021/tree/exams/Semester_Work/src/main/webapp/WEB-INF/ftl -ftlh
 
 
@@ -47,8 +47,9 @@ https://github.com/LegendaryZer0/JavaEE-itis-lab/tree/servletsAndFtlh/src/main/w
 находится в : **simple-char-902-v2-LegendaryZer0**
 
 ## 10)10. Сделать AnnotationProcessing
-находится в  - **15.Annotations_SOURCE**
+находится в  - **15.Annotations_SOURCE** (надеюсь, я правильно понял, что нужно сделать)
 
 ## 11)11. CSRF и постоянное хранилище сессий
 Пункт 1: в 16. **WebAppExample - CSRF**
 Пункт 2: не сделан
+Постоянное хранилище сессий- **выполнено**, пруфы : https://github.com/LegendaryZer0/WinterExamsJavalab2021/tree/exams/16.%20WebAppExample%20-%20CSRF/src/main/resources/proofs
